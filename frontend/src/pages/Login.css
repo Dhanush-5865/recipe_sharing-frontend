@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4e1c4;
+}
+
+
+.chill-text {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  color: #008080; 
+  margin-bottom: 20px;
+}
+
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  color: white;
+}
+
+
+.login-box label {
+  display: block;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+}
+
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.forgot-password {
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}

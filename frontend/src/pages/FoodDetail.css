@@ -1,0 +1,44 @@
+.food-detail-container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.food-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.food-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.food-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-description {
+  background-color: #C5C5C5; /* Cement color */
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: left;
+}
+
+.food-description h2, .food-description p {
+  color: black; /* Black text */
+}
+
+.back-button {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
